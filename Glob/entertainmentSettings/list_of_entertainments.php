@@ -47,20 +47,29 @@ $output .='<div class="scrollmenu">
 
 
  
+
+ <div class="container">
  <div class="row">
+
  <div class="col-9 mt-2 searche ">
+
 <form class="example"    >
-  <input type="text" style="border-color:blue; " class="ml-2" placeholder="Search Video .." name="search">
+  <input type="text" style="border-color:blue; "  placeholder="Search Video .." name="search">
  <i class="fa fa-search" style=" padding: 7px; background: dodgerblue;color: white;min-width: 45px;text-align: center;" ></i> 
 </form>
+
 </div>
  
 
 <div class="col-3 d-flex justify-content-end mt-2  ">
-<a href="download_app/Globula.apk"  class="mr-2"  ><button style="background-color: #ddd;border: none;color: blue;text-align:center;text-decoration: none;display: inline-block;cursor: pointer;
+
+<a href="download_app/Globula.apk"   ><button style="background-color: #ddd;border: none;color: blue;text-align:center;text-decoration: none;display: inline-block;cursor: pointer;
 border-radius: 16px;"><b >APP</b><i class="fa fa-download" style="font-size:20px;color:red"></i></button></a>
 </div>
+
+ 
 </div>
+
  
 </div>
 
