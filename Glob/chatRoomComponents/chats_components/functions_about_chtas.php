@@ -63,7 +63,7 @@ function online_status($user_id,$conn){
     } 
 
 
-    $current_timestamp = strtotime(date("Y-m-d H:i:s") . '- 100 second');
+    $current_timestamp = strtotime(date("Y-m-d H:i:s") . '- 10820 second');
 	$current_timestamp = date('Y-m-d H:i:s', $current_timestamp);
     
 	$status = '';
