@@ -185,8 +185,7 @@ $(document).ready(function(){
 	update_online_status_time();
      
 
-   enable during Upgrade 
-
+ 
     setInterval(function(){
 		fetch_user_history_chats(); 
 	}, 10000);
