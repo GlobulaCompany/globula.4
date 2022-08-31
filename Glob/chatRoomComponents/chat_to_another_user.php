@@ -211,10 +211,8 @@ success: function(response) {
 
   $('#display_user_chats').html(response);
 
-  window.setInterval(function() {
-  var elem = document.getElementById('#display_user_chats');
+   var elem = document.getElementById('display_user_chats');
   elem.scrollTop = elem.scrollHeight;
-}, 5000);
 
    
    
