@@ -7,7 +7,7 @@ $message_from_user_profile =  $_POST['message_from_user_profile'];
 $message_to_user_profile =$_POST['message_to_user_profile'];
 
  
-$query = mysqli_query($conn,"SELECT * FROM chat_message WHERE (message_from_user_id = '".$message_from_user_id."' AND message_to_user_id = '".$message_to_user_id."') OR (message_from_user_id = '".$message_to_user_id."' AND message_to_user_id = '".$message_from_user_id."') ORDER BY message_time DESC");
+$query = mysqli_query($conn,"SELECT * FROM chat_message WHERE (message_from_user_id = '".$message_from_user_id."' AND message_to_user_id = '".$message_to_user_id."') OR (message_from_user_id = '".$message_to_user_id."' AND message_to_user_id = '".$message_from_user_id."') ORDER BY message_time ASC");
 $output ='';
 $set_message_view =mysqli_query($conn,"UPDATE chat_message SET status = '0' WHERE  (message_from_user_id = '".$message_to_user_id."' AND message_to_user_id = '".$message_from_user_id."') ");
 
