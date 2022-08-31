@@ -186,9 +186,9 @@ $(document).ready(function(){
      
 
  
-    setInterval(function(){
-		fetch_user_history_chats(); 
-	}, 10000);
+//     setInterval(function(){
+// 		fetch_user_history_chats(); 
+// 	}, 10000);
 
 
  function fetch_user_history_chats()
