@@ -191,7 +191,7 @@ $(document).ready(function(){
      
     setInterval(function(){
 		fetch_user_messages(); 
-	}, 500);
+	}, 3000);
 
   
 
